@@ -85,7 +85,7 @@ img {
 
 @media screen and (max-width: 420px) {
     img {
-        height: 100px;
+        height: 75px;
     }
     .row {
         margin-top: 0;
@@ -97,6 +97,7 @@ img {
     }
     h1 {
         margin-block-start: 0;
+        margin-block-end: 0;
         font-size: 28px;
     }
     h3 {
@@ -111,6 +112,12 @@ img {
     #lezioni .row>.right {
         width: 100%;
         margin-bottom: 20px;
+        font-size: 12px;
+    }
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+        width: 100%;
         font-size: 12px;
     }
 }
